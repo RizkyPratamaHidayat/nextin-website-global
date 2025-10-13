@@ -12,7 +12,7 @@ export const Header = (props) => {
                 <img src={NextinLogo} style={{width: '350px'}} alt="next-in-logo" />
                 <p style={{color: '#608dfd'}}>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
-                  href="#features"
+                  href="#about"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Check Us
