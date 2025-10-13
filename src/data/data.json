@@ -84,7 +84,7 @@
     {
       "icon": "fa fa-gear",
       "name": "Maintenance & development",
-      "text": "n addition to developing new solutions, we also offer maintenance services for projects we have created as well as existing client projects, ensuring long-term performance and reliability."
+      "text": "In addition to developing new solutions, we also offer maintenance services for projects we have created as well as existing client projects, ensuring long-term performance and reliability."
     }
   ],
   "Testimonials": [
@@ -142,12 +142,8 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "phone": "+62 823 6462 9599",
+    "email": "contactus@next-in.online"
   },
   "Features": [
     {

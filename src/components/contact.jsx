@@ -15,26 +15,22 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
+
   const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    const subject = message;
+
+    // Menggabungkan nama dan pesan di body email
+    const body = `Name: ${name}\n\nMessage: ${message}`;
+
+    const gmailLink = `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(
+      email
+    )}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    // Buka di tab baru
+    window.open(gmailLink, "_blank");
   };
+
   return (
     <div>
       <div id="contact">
@@ -101,12 +97,6 @@ export const Contact = (props) => {
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Address
-                </span>
-                {props.data ? props.data.address : "loading"}
-              </p>
             </div>
             <div className="contact-item">
               <p>
