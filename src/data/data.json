@@ -68,23 +68,23 @@
   "Services": [
     {
       "icon": "fa fa-android",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Android Development",
+      "text": "We have designed, developed, and currently manage several Android applications that are widely used in both the financial and consumer goods sectors in Indonesia. This experience enables us to build custom Android apps that drive engagement and growth for your business."
     },
      {
       "icon": "fa fa-apple",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "IOS Development",
+      "text": "We have designed, developed, and currently manage several iOS applications that are widely used in both the financial and consumer goods sectors in Indonesia. This experience allows us to create tailor-made iOS apps that enhance customer engagement and accelerate your business success."
     },
     {
       "icon": "fa fa-html5",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Web Development",
+      "text": "We create intelligent websites designed to capture attention, engage visitors, and drive conversions. Using our custom website CMS, we deliver platforms tailored to your needs, complete with e-commerce functionality and unique integrations specific to your business."
     },
     {
       "icon": "fa fa-gear",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Maintenance & development",
+      "text": "n addition to developing new solutions, we also offer maintenance services for projects we have created as well as existing client projects, ensuring long-term performance and reliability."
     }
   ],
   "Testimonials": [
