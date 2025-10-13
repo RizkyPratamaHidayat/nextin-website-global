@@ -20,49 +20,22 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Trading Web & Mobile Application (Indonesia):",
+      "desc": "We have developed a mobile and web application for our clients in the trading industry from indonesia and australia. The project has been completed and published. Currently, we are continuing development by adding new features as well as performing continuous maintenance and support.",
+      "largeImage": "img/portfolio/01.jpeg",
+      "smallImage": "img/portfolio/01.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Financial web & mobile application",
+      "desc": "We have also developed a website and mobile application for one of our clients from Australia who operates in the financial services, financial consulting, and investment management sectors. The project has been successfully completed and published. Currently, we are continuing our collaboration by developing new features and providing ongoing system maintenance and support.",
+      "largeImage": "img/portfolio/02.png",
+      "smallImage": "img/portfolio/02.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Dealer & leasing Web application",
+      "desc": "We developed an internal website for one of our clients in the dealer and leasing services industry. The project includes several modules that support internal business processes, such as BPKB management, insurance, fund disbursement, daily closing, data updates, and more.The system has been successfully launched and is currently under continuous development with new features and modules to further enhance the client's operational efficiency.",
+      "largeImage": "img/portfolio/03.png",
+      "smallImage": "img/portfolio/03.png"
     }
   ],
   "Services": [
@@ -121,24 +94,16 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/01.jpeg",
+      "name": "Eki Hie",
+      "job": "CEO",
+      "desc": "Eki is a creative dreamer who is always looking for new ways to improve in everything he does. After failing to grow his own startup, he became obsessed with learning from past mistakes and decided to gain experience elsewhere to keep evolving. Keeping up with the times, Eki studied many areas, including business and technology, which gave him a solid foundation to become a strong leader. This led to Nextin, a business team operating in the IT sector that now works with several brands in Indonesia and abroad."
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/02.jpeg",
+      "name": "Fadilla Imran",
+      "job": "COO",
+      "desc": "As the Chief Operating Officer, Fadilla Imran is recognized as a visionary leader with exceptional problem-solving skills and a calm, strategic approach to overcoming challenges. With a strong background in operations and management, Fadilla drives efficiency, innovation, and sustainable growth across all aspects of the organization. With analytical sharpness, an adventurous mindset, and adaptive character, Fadilla Imran continues to be a driving force behind the company’s ongoing success and meaningful evolution."
     }
   ],
   "Contact": {
