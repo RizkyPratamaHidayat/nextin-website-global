@@ -24,7 +24,7 @@ export const Contact = (props) => {
     const body = `Name: ${name}\n\nMessage: ${message}`;
 
     const gmailLink = `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(
-      email
+      props?.data?.email
     )}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     // Buka di tab baru
