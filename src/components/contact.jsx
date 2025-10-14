@@ -106,6 +106,14 @@ export const Contact = (props) => {
                 {props.data ? props.data.phone : "loading"}
               </p>
             </div>
+             <div className="contact-item">
+              <p>
+                <span>
+                  <i className="fa fa-whatsapp"></i> Whatsapp
+                </span>{" "}
+                {props.data ? props.data.phone : "loading"}
+              </p>
+            </div>
             <div className="contact-item">
               <p>
                 <span>
