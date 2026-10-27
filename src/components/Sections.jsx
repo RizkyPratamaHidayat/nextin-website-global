@@ -41,29 +41,43 @@ export const Services = ({ t }) => (
   </section>
 );
 
-export const Work = ({ t }) => (
-  <section id="work" className="section section--dark">
-    <div className="container">
-      <Head eyebrow={t.eyebrow} title={t.title}><p className="muted">{t.note}</p></Head>
-      <div className="cases">
-        {t.items.map((c, i) => (
-          <Reveal key={c.title} delay={i * 110} className="case">
-            <div className="case__top">
-              <span className="pill">{c.industry}</span>
-              <span className="status"><i /> {c.status}</span>
-            </div>
-            <h3>{c.title}</h3>
-            <dl>
-              <dt>{t.labels.problem}</dt><dd>{c.problem}</dd>
-              <dt>{t.labels.solution}</dt><dd>{c.solution}</dd>
-              <dt>{t.labels.result}</dt><dd>{c.result}</dd>
-            </dl>
-          </Reveal>
-        ))}
+export const Work = ({ t }) => {
+  const [filter, setFilter] = useState("all");
+  const items = t.items.filter((c) => filter === "all" || c.cats.includes(filter));
+  const chips = ["all", ...Object.keys(t.filters)];
+  return (
+    <section id="work" className="section section--dark">
+      <div className="container">
+        <Head eyebrow={t.eyebrow} title={t.title}><p className="muted">{t.note}</p></Head>
+        <div className="chips" role="group" aria-label={t.eyebrow}>
+          {chips.map((k) => (
+            <button key={k} type="button" aria-pressed={filter === k} className={filter === k ? "is-active" : ""} onClick={() => setFilter(k)}>
+              {k === "all" ? t.all : t.filters[k]}
+            </button>
+          ))}
+        </div>
+        <div className="cases">
+          {items.map((c, i) => (
+            <article key={c.title} className="case case--in" style={{ "--d": `${i * 70}ms` }}>
+              <div className="case__top">
+                <span className="pill">{c.industry}</span>
+                <span className="status"><i /> {c.status}</span>
+              </div>
+              <h3>{c.title}</h3>
+              <dl>
+                <dt>{t.labels.problem}</dt><dd>{c.problem}</dd>
+                <dt>{t.labels.solution}</dt><dd>{c.solution}</dd>
+                <dt>{t.labels.result}</dt><dd>{c.result}</dd>
+              </dl>
+              <p className="case__meta">{c.meta}</p>
+            </article>
+          ))}
+        </div>
+        <p className="muted case__more">{t.more}</p>
       </div>
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 export const Process = ({ t, industries }) => (
   <section id="process" className="section">
@@ -80,7 +94,7 @@ export const Process = ({ t, industries }) => (
       </ol>
       <Reveal className="industries">
         <h3>{industries.title}</h3>
-        <ul>{industries.items.map((x) => <li key={x}>{x}</li>)}</ul>
+        <ul>{industries.items.map((x) => <li key={x.name}><strong>{x.name}</strong><span>{x.text}</span></li>)}</ul>
       </Reveal>
     </div>
   </section>
