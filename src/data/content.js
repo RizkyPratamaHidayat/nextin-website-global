@@ -4,7 +4,7 @@ export const CONTENT = {
     hero: {
       eyebrow: "PT Nextin Tech Innovation · Jakarta",
       title: "Software that moves your business forward.",
-      sub: "We build mobile apps, web platforms, and internal systems for finance, trading, and leasing businesses in Indonesia, Australia, and the UK.",
+      sub: "We build mobile apps, web platforms, and internal systems for finance, trading, and leasing businesses in Indonesia, Australia, and Hong Kong.",
       primary: "Discuss your project",
       secondary: "See our work",
     },
@@ -16,7 +16,7 @@ export const CONTENT = {
     },
     about: {
       title: "A technology partner, not just a vendor",
-      body: "Founded in 2021 in Jakarta, we help organizations adopt digital solutions that are innovative, efficient, and sustainable. Every engagement starts by understanding your business, then applying the right technology. Clients from Indonesia, Australia, and the UK trust us with live, ongoing products.",
+      body: "Founded in 2021 in Jakarta, we help organizations adopt digital solutions that are innovative, efficient, and sustainable. Every engagement starts by understanding your business, then applying the right technology. Clients from Indonesia, Australia, and Hong Kong trust us with live, ongoing products.",
     },
     services: {
       eyebrow: "What we do",
@@ -40,7 +40,7 @@ export const CONTENT = {
         { cats: ["fintech", "trading"], industry: "Brokerage", title: "CRM, back-office and live price streaming for a regional broker", problem: "A forex broker needed client-side CRM and back-office tools, and trade execution that depends on prices arriving fast and reliably.", solution: "We built the CRM and back-office applications with Next.js and implemented two-way price streaming over WebSocket.", result: "Better operational throughput and fast, reliable trade execution.", status: "Delivered", meta: "Next.js · WebSocket · Southeast Asia" },
         { cats: ["fintech", "wealth"], industry: "Wealth management", title: "Faster releases for a wealth-management portal", problem: "A wealth-management client portal needed new features shipped faster, and releases that do not take the product offline.", solution: "We delivered reusable web modules for the portal and managed the production CI/CD pipelines.", result: "Feature development time cut by about 30%, with zero-downtime deployments.", status: "Delivered", meta: "Web · CI/CD · Asia-Pacific" },
         { cats: ["fintech", "lending"], industry: "Fintech lending", title: "Operational web app for a lending company", problem: "A lending company needed a complex internal operations web app built from Figma prototypes, in a domain where security matters.", solution: "We built the app from the Figma prototypes and hardened it with a Content Security Policy (CSP).", result: "A complex operational app delivered from design to production, with CSP hardening in place.", status: "Delivered", meta: "Web · Southeast Asia" },
-        { cats: ["fintech", "trading"], industry: "Trading", title: "Trading web & mobile application", problem: "Trading clients in Indonesia and the UK needed one product across web and mobile.", solution: "We built and published the web and mobile app.", result: "Live, with ongoing feature development, maintenance and support.", status: "Live · in development", meta: "Web · Mobile" },
+        { cats: ["fintech", "trading"], industry: "Trading", title: "Trading web & mobile application", problem: "Trading clients in Asia needed one product across web and mobile.", solution: "We built and published the web and mobile app.", result: "Live, with ongoing feature development, maintenance and support.", status: "Live · in development", meta: "Web · Mobile" },
         { cats: ["fintech", "wealth"], industry: "Financial services", title: "Financial advisory web & mobile app", problem: "An Australian financial consulting and investment firm needed a digital channel for clients.", solution: "We delivered a website and mobile application.", result: "Live, with new features and continuous support.", status: "Live · in development", meta: "Web · Mobile" },
         { cats: ["leasing"], industry: "Dealer & leasing", title: "Dealer & leasing internal system", problem: "Internal processes such as BPKB, insurance, fund disbursement and daily closing ran separately.", solution: "A multi-module web system covering those processes.", result: "Launched and growing with new modules to improve operational efficiency.", status: "Live · in development", meta: "Web" },
       ],
@@ -85,14 +85,14 @@ export const CONTENT = {
     hero: {
       eyebrow: "PT Nextin Tech Innovation · Jakarta",
       title: "Software yang menggerakkan bisnis Anda.",
-      sub: "Kami membangun aplikasi mobile, platform web, dan sistem internal untuk bisnis keuangan, trading, dan leasing di Indonesia, Australia, dan Inggris.",
+      sub: "Kami membangun aplikasi mobile, platform web, dan sistem internal untuk bisnis keuangan, trading, dan leasing di Indonesia, Australia, dan Hong Kong.",
       primary: "Diskusi proyek",
       secondary: "Lihat karya kami",
     },
     stats: { since: "Sejak", countries: "Negara klien", projects: "Produk dirilis", years: "Tahun pengalaman" },
     about: {
       title: "Mitra teknologi, bukan sekadar vendor",
-      body: "Berdiri sejak 2021 di Jakarta, kami membantu organisasi mengadopsi solusi digital yang inovatif, efisien, dan berkelanjutan. Setiap proyek diawali dengan memahami bisnis Anda, lalu menerapkan teknologi yang tepat. Klien dari Indonesia, Australia, dan Inggris mempercayakan produk yang aktif dan terus berkembang kepada kami.",
+      body: "Berdiri sejak 2021 di Jakarta, kami membantu organisasi mengadopsi solusi digital yang inovatif, efisien, dan berkelanjutan. Setiap proyek diawali dengan memahami bisnis Anda, lalu menerapkan teknologi yang tepat. Klien dari Indonesia, Australia, dan Hong Kong mempercayakan produk yang aktif dan terus berkembang kepada kami.",
     },
     services: {
       eyebrow: "Layanan kami",
@@ -116,7 +116,7 @@ export const CONTENT = {
         { cats: ["fintech", "trading"], industry: "Brokerage", title: "CRM, back-office, dan streaming harga live untuk broker regional", problem: "Broker forex butuh CRM sisi klien dan tools back-office, plus eksekusi trade yang bergantung pada harga yang masuk cepat dan stabil.", solution: "Kami membangun aplikasi CRM dan back-office dengan Next.js dan mengimplementasi price streaming dua arah lewat WebSocket.", result: "Throughput operasional naik dan eksekusi trade cepat serta andal.", status: "Selesai", meta: "Next.js · WebSocket · Asia Tenggara" },
         { cats: ["fintech", "wealth"], industry: "Wealth management", title: "Rilis lebih cepat untuk portal wealth management", problem: "Portal klien wealth management butuh fitur baru yang rilisnya lebih cepat, dengan deploy yang tidak membuat produk mati.", solution: "Kami membuat modul web yang bisa dipakai ulang untuk portal dan mengelola pipeline CI/CD production.", result: "Waktu pengembangan fitur turun sekitar 30%, dengan deploy zero-downtime.", status: "Selesai", meta: "Web · CI/CD · Asia-Pasifik" },
         { cats: ["fintech", "lending"], industry: "Fintech lending", title: "Web app operasional untuk perusahaan pembiayaan", problem: "Perusahaan pembiayaan butuh web app operasional internal yang kompleks dari prototype Figma, di bidang yang keamanannya penting.", solution: "Kami membangun app dari prototype Figma dan memperkuatnya dengan Content Security Policy (CSP).", result: "Aplikasi operasional kompleks selesai dari desain sampai production, dengan penguatan CSP terpasang.", status: "Selesai", meta: "Web · Asia Tenggara" },
-        { cats: ["fintech", "trading"], industry: "Trading", title: "Aplikasi web & mobile trading", problem: "Klien trading di Indonesia dan Inggris butuh satu produk lintas web dan mobile.", solution: "Kami membangun dan merilis aplikasi web dan mobile.", result: "Sudah live, dengan pengembangan fitur, pemeliharaan, dan dukungan berkelanjutan.", status: "Live · terus dikembangkan", meta: "Web · Mobile" },
+        { cats: ["fintech", "trading"], industry: "Trading", title: "Aplikasi web & mobile trading", problem: "Klien trading di Asia butuh satu produk lintas web dan mobile.", solution: "Kami membangun dan merilis aplikasi web dan mobile.", result: "Sudah live, dengan pengembangan fitur, pemeliharaan, dan dukungan berkelanjutan.", status: "Live · terus dikembangkan", meta: "Web · Mobile" },
         { cats: ["fintech", "wealth"], industry: "Layanan keuangan", title: "Aplikasi web & mobile konsultan keuangan", problem: "Perusahaan konsultan keuangan dan investasi di Australia butuh kanal digital untuk kliennya.", solution: "Kami menyerahkan website dan aplikasi mobile.", result: "Sudah live, dengan fitur baru dan dukungan berkelanjutan.", status: "Live · terus dikembangkan", meta: "Web · Mobile" },
         { cats: ["leasing"], industry: "Dealer & leasing", title: "Sistem internal dealer & leasing", problem: "Proses internal seperti BPKB, asuransi, pencairan dana, dan closing harian berjalan terpisah.", solution: "Sistem web multi-modul yang mencakup proses tersebut.", result: "Sudah berjalan dan terus bertambah modul untuk meningkatkan efisiensi operasional.", status: "Live · terus dikembangkan", meta: "Web" },
       ],
