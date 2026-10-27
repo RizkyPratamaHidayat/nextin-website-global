@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import NextinLogo from "../assets/png/nextin-logo-crop.png";
 
 export const Navigation = ({ t, lang, setLang }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -20,8 +21,7 @@ export const Navigation = ({ t, lang, setLang }) => {
     <header className={`nav ${scrolled ? "nav--solid" : ""} ${open ? "nav--open" : ""}`}>
       <div className="container nav__inner">
         <a className="nav__brand" href="#top" onClick={() => setOpen(false)}>
-          <span className="nav__mark" aria-hidden="true" />
-          <span>NEXTIN</span>
+          <img src={NextinLogo} alt="Nextin Tech Innovation" width="140" height="38" />
         </a>
         <button
           type="button"
