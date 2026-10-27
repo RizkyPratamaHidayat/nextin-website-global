@@ -16,7 +16,14 @@ export const CONTENT = {
     },
     about: {
       title: "A technology partner, not just a vendor",
-      body: "Founded in 2021 in Jakarta, we help organizations adopt digital solutions that are innovative, efficient, and sustainable. Every engagement starts by understanding your business, then applying the right technology. Clients from Indonesia, Australia, and Hong Kong trust us with live, ongoing products.",
+      body: "PT Nextin Tech Innovation is an information technology consulting company based in Jakarta, Indonesia.",
+      storyTitle: "Our story",
+      story: [
+        { label: "2021", title: "Why we started", text: "Nextin was founded out of a concern for the rapid advancement of technology and the growing need for businesses to adapt in the digital era." },
+        { label: "Today", title: "How we work", text: "We are committed to being a strategic partner for organizations implementing digital solutions that are innovative, efficient, and sustainable. Our team is experienced in software development, system integration, and digital transformation. We have completed numerous projects and continue to manage ongoing initiatives." },
+        { label: "Trust", title: "Who trusts us", text: "Clients from Indonesia, Australia, and Hong Kong trust us to deliver reliable, high-quality, results-oriented services." },
+        { label: "Belief", title: "What we believe", text: "Every digital transformation begins with a deep understanding of business needs, followed by the implementation of the right technology. Through collaboration, innovation, and dedication, we help our clients reach their full potential in this digital era." },
+      ],
     },
     services: {
       eyebrow: "What we do",
@@ -92,7 +99,14 @@ export const CONTENT = {
     stats: { since: "Sejak", countries: "Negara klien", projects: "Produk dirilis", years: "Tahun pengalaman" },
     about: {
       title: "Mitra teknologi, bukan sekadar vendor",
-      body: "Berdiri sejak 2021 di Jakarta, kami membantu organisasi mengadopsi solusi digital yang inovatif, efisien, dan berkelanjutan. Setiap proyek diawali dengan memahami bisnis Anda, lalu menerapkan teknologi yang tepat. Klien dari Indonesia, Australia, dan Hong Kong mempercayakan produk yang aktif dan terus berkembang kepada kami.",
+      body: "PT Nextin Tech Innovation adalah perusahaan konsultan teknologi informasi yang berbasis di Jakarta, Indonesia.",
+      storyTitle: "Cerita kami",
+      story: [
+        { label: "2021", title: "Kenapa kami berdiri", text: "Nextin didirikan karena kepedulian terhadap pesatnya perkembangan teknologi dan makin besarnya kebutuhan bisnis untuk beradaptasi di era digital." },
+        { label: "Kini", title: "Cara kami bekerja", text: "Kami berkomitmen menjadi mitra strategis bagi organisasi dalam menerapkan solusi digital yang inovatif, efisien, dan berkelanjutan. Tim kami berpengalaman di pengembangan software, integrasi sistem, dan transformasi digital. Kami sudah menyelesaikan banyak proyek dan masih mengelola berbagai inisiatif yang berjalan." },
+        { label: "Kepercayaan", title: "Siapa yang percaya pada kami", text: "Klien dari Indonesia, Australia, dan Hong Kong mempercayakan layanan yang andal, berkualitas tinggi, dan berorientasi hasil kepada kami." },
+        { label: "Keyakinan", title: "Yang kami yakini", text: "Setiap transformasi digital dimulai dari pemahaman mendalam tentang kebutuhan bisnis, lalu penerapan teknologi yang tepat. Lewat kolaborasi, inovasi, dan dedikasi, kami membantu klien mencapai potensi penuhnya di era digital ini." },
+      ],
     },
     services: {
       eyebrow: "Layanan kami",
@@ -164,16 +178,16 @@ export const TEAM = [
     img: "img/team/01.jpeg", name: "Eki Hie",
     job: { en: "CEO", id: "CEO" },
     bio: {
-      en: "Eki is a creative dreamer who is always looking for new ways to improve in everything he does. He studied business and technology, which gave him a solid foundation to lead. This led to Nextin, a business team operating in the IT sector that now works with several brands in Indonesia and abroad.",
-      id: "Eki adalah pemimpi kreatif yang selalu mencari cara baru untuk berkembang. Ia mempelajari bisnis dan teknologi sebagai fondasi kepemimpinannya. Dari sinilah Nextin lahir, tim bisnis di sektor IT yang kini bekerja dengan sejumlah brand di Indonesia dan luar negeri.",
+      en: "Eki is a creative dreamer who is always looking for new ways to improve in everything he does. After failing to grow his own startup, he became obsessed with learning from past mistakes and decided to gain experience elsewhere to keep evolving. Keeping up with the times, Eki studied many areas, including business and technology, which gave him a solid foundation to become a strong leader. This led to Nextin, a business team operating in the IT sector that now works with several brands in Indonesia and abroad.",
+      id: "Eki adalah pemimpi kreatif yang selalu mencari cara baru untuk berkembang dalam segala hal. Setelah gagal mengembangkan startup miliknya, ia terobsesi belajar dari kesalahan masa lalu dan memutuskan mencari pengalaman di tempat lain agar terus berkembang. Mengikuti perkembangan zaman, Eki mempelajari banyak bidang, termasuk bisnis dan teknologi, yang menjadi fondasi kuat untuk menjadi pemimpin. Dari sinilah lahir Nextin, tim bisnis di sektor IT yang kini bekerja dengan sejumlah brand di Indonesia dan luar negeri.",
     },
   },
   {
     img: "img/team/02.jpeg", name: "Fadilla Imran",
     job: { en: "COO", id: "COO" },
     bio: {
-      en: "As Chief Operating Officer, Fadilla is recognized for exceptional problem-solving and a calm, strategic approach. With a strong background in operations and management, Fadilla drives efficiency, innovation, and sustainable growth across the organization.",
-      id: "Sebagai Chief Operating Officer, Fadilla dikenal dengan kemampuan memecahkan masalah dan pendekatan strategis yang tenang. Dengan latar belakang operasi dan manajemen yang kuat, Fadilla mendorong efisiensi, inovasi, dan pertumbuhan berkelanjutan di seluruh organisasi.",
+      en: "As the Chief Operating Officer, Fadilla Imran is recognized as a visionary leader with exceptional problem-solving skills and a calm, strategic approach to overcoming challenges. With a strong background in operations and management, Fadilla drives efficiency, innovation, and sustainable growth across all aspects of the organization. With analytical sharpness, an adventurous mindset, and adaptive character, Fadilla Imran continues to be a driving force behind the company's ongoing success and meaningful evolution.",
+      id: "Sebagai Chief Operating Officer, Fadilla Imran dikenal sebagai pemimpin visioner dengan kemampuan memecahkan masalah yang luar biasa dan pendekatan strategis yang tenang dalam menghadapi tantangan. Dengan latar belakang operasi dan manajemen yang kuat, Fadilla mendorong efisiensi, inovasi, dan pertumbuhan berkelanjutan di seluruh aspek organisasi. Dengan ketajaman analisis, jiwa petualang, dan karakter yang adaptif, Fadilla Imran terus menjadi penggerak keberhasilan dan evolusi perusahaan.",
     },
   },
 ];

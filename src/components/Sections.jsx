@@ -13,11 +13,23 @@ const Head = ({ eyebrow, title, children }) => (
 );
 
 export const About = ({ t }) => (
-  <section className="section section--tight">
-    <div className="container">
-      <div className="about">
-      <Reveal as="h2">{t.title}</Reveal>
-      <Reveal as="p" delay={120}>{t.body}</Reveal>
+  <section id="about" className="section section--tight">
+    <div className="container about">
+      <div className="about__lead">
+        <Reveal as="h2">{t.title}</Reveal>
+        <Reveal as="p" delay={120}>{t.body}</Reveal>
+      </div>
+      <div>
+        <Reveal as="h3" className="about__story-title">{t.storyTitle}</Reveal>
+        <ol className="story">
+          {t.story.map((x, i) => (
+            <Reveal as="li" key={x.label} delay={i * 100} className="story__item">
+              <span className="story__label">{x.label}</span>
+              <h3>{x.title}</h3>
+              <p>{x.text}</p>
+            </Reveal>
+          ))}
+        </ol>
       </div>
     </div>
   </section>
