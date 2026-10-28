@@ -116,17 +116,17 @@ export const Team = ({ t, lang }) => (
   <section id="team" className="section section--soft">
     <div className="container">
       <Head eyebrow={t.eyebrow} title={t.title} />
-      <div className="cards cards--2">
+      <div className="leaders">
         {TEAM.map((m, i) => (
-          <Reveal key={m.name} delay={i * 120} className="person">
-            <div className="person__photo">
+          <Reveal key={m.name} className={`leader${i % 2 ? " leader--flip" : ""}`}>
+            <div className="leader__photo">
               <img src={m.img} alt={m.name} loading="lazy" width="560" height="700" />
-              <div className="person__id">
-                <span className="person__job">{m.job[lang]}</span>
-                <h3>{m.name}</h3>
-              </div>
             </div>
-            <p className="person__bio">{m.bio[lang]}</p>
+            <div className="leader__text">
+              <span className="leader__job">{m.job[lang]}</span>
+              <h3>{m.name}</h3>
+              <p>{m.bio[lang]}</p>
+            </div>
           </Reveal>
         ))}
       </div>
