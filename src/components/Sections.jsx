@@ -119,12 +119,14 @@ export const Team = ({ t, lang }) => (
       <div className="cards cards--2">
         {TEAM.map((m, i) => (
           <Reveal key={m.name} delay={i * 120} className="person">
-            <img src={m.img} alt={m.name} loading="lazy" width="96" height="96" />
-            <div>
-              <h3>{m.name}</h3>
-              <p className="person__job">{m.job[lang]}</p>
-              <p>{m.bio[lang]}</p>
+            <div className="person__photo">
+              <img src={m.img} alt={m.name} loading="lazy" width="560" height="700" />
+              <div className="person__id">
+                <span className="person__job">{m.job[lang]}</span>
+                <h3>{m.name}</h3>
+              </div>
             </div>
+            <p className="person__bio">{m.bio[lang]}</p>
           </Reveal>
         ))}
       </div>
