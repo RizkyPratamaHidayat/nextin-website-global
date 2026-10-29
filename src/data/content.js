@@ -4,7 +4,7 @@ export const CONTENT = {
     hero: {
       eyebrow: "PT Nextin Tech Innovation · Indonesia",
       title: "Software that moves your business forward.",
-      sub: "We build mobile apps, web platforms, and internal systems for finance, trading, and leasing businesses in Indonesia, Australia, and Hong Kong.",
+      sub: "We build mobile apps, web platforms, and internal systems for finance, trading, and leasing businesses in Indonesia, Australia, Malaysia, and Hong Kong.",
       primary: "Discuss your project",
       secondary: "See our work",
     },
@@ -21,7 +21,7 @@ export const CONTENT = {
       story: [
         { label: "2021", title: "Why we started", text: "Nextin was founded out of a concern for the rapid advancement of technology and the growing need for businesses to adapt in the digital era." },
         { label: "Today", title: "How we work", text: "We are committed to being a strategic partner for organizations implementing digital solutions that are innovative, efficient, and sustainable. Our team is experienced in software development, system integration, and digital transformation. We have completed numerous projects and continue to manage ongoing initiatives." },
-        { label: "Trust", title: "Who trusts us", text: "Clients from Indonesia, Australia, and Hong Kong trust us to deliver reliable, high-quality, results-oriented services." },
+        { label: "Trust", title: "Who trusts us", text: "Clients from Indonesia, Australia, Malaysia, and Hong Kong trust us to deliver reliable, high-quality, results-oriented services." },
         { label: "Belief", title: "What we believe", text: "Every digital transformation begins with a deep understanding of business needs, followed by the implementation of the right technology. Through collaboration, innovation, and dedication, we help our clients reach their full potential in this digital era." },
       ],
     },
@@ -92,7 +92,7 @@ export const CONTENT = {
     hero: {
       eyebrow: "PT Nextin Tech Innovation · Indonesia",
       title: "Software yang menggerakkan bisnis Anda.",
-      sub: "Kami membangun aplikasi mobile, platform web, dan sistem internal untuk bisnis keuangan, trading, dan leasing di Indonesia, Australia, dan Hong Kong.",
+      sub: "Kami membangun aplikasi mobile, platform web, dan sistem internal untuk bisnis keuangan, trading, dan leasing di Indonesia, Australia, Malaysia, dan Hong Kong.",
       primary: "Diskusi proyek",
       secondary: "Lihat karya kami",
     },
@@ -104,7 +104,7 @@ export const CONTENT = {
       story: [
         { label: "2021", title: "Kenapa kami berdiri", text: "Nextin didirikan karena kepedulian terhadap pesatnya perkembangan teknologi dan makin besarnya kebutuhan bisnis untuk beradaptasi di era digital." },
         { label: "Kini", title: "Cara kami bekerja", text: "Kami berkomitmen menjadi mitra strategis bagi organisasi dalam menerapkan solusi digital yang inovatif, efisien, dan berkelanjutan. Tim kami berpengalaman di pengembangan software, integrasi sistem, dan transformasi digital. Kami sudah menyelesaikan banyak proyek dan masih mengelola berbagai inisiatif yang berjalan." },
-        { label: "Kepercayaan", title: "Siapa yang percaya pada kami", text: "Klien dari Indonesia, Australia, dan Hong Kong mempercayakan layanan yang andal, berkualitas tinggi, dan berorientasi hasil kepada kami." },
+        { label: "Kepercayaan", title: "Siapa yang percaya pada kami", text: "Klien dari Indonesia, Australia, Malaysia, dan Hong Kong mempercayakan layanan yang andal, berkualitas tinggi, dan berorientasi hasil kepada kami." },
         { label: "Keyakinan", title: "Yang kami yakini", text: "Setiap transformasi digital dimulai dari pemahaman mendalam tentang kebutuhan bisnis, lalu penerapan teknologi yang tepat. Lewat kolaborasi, inovasi, dan dedikasi, kami membantu klien mencapai potensi penuhnya di era digital ini." },
       ],
     },
