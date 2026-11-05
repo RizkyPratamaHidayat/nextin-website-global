@@ -1,23 +1,10 @@
 import React, { useEffect } from "react";
 import { Icon } from "./Icons";
 import { Reveal } from "./Reveal";
-import mockTwo from "../assets/nexora/mockup-dua-hp.webp";
-import mockOne from "../assets/nexora/mockup-hp-miring.webp";
+import { NexoraPhones } from "./NexoraPhones";
 
 // Halaman produk NEXORA (#/nexora). Aturan konten: tanpa nama mitra, tanpa klaim izin/keamanan,
 // tanpa angka yang kebaca kayak janji untung, tanpa form data pribadi.
-// Mockup HP dari aset branding Lexa (marketing-assets), dikecilin ke WebP. Saldo disembunyiin, harga ditandai "Ilustrasi".
-// Layar sempit pakai satu HP miring biar tetap kebaca.
-const PhoneMock = ({ label }) => (
-  <figure className="nxp__phone">
-    <picture>
-      <source media="(max-width: 560px)" srcSet={mockOne} />
-      <img src={mockTwo} alt={label} width="1100" height="988" loading="eager" decoding="async" />
-    </picture>
-    <figcaption>{label}</figcaption>
-  </figure>
-);
-
 export const NexoraPage = ({ t }) => {
   useEffect(() => {
     const prev = document.title;
@@ -39,7 +26,7 @@ export const NexoraPage = ({ t }) => {
             <p className="nxp__intro">{t.intro}</p>
             <span className="nexora__status">{t.status}</span>
           </div>
-          <PhoneMock label={t.mockLabel} />
+          <NexoraPhones label={t.mockLabel} eager />
         </div>
       </section>
 

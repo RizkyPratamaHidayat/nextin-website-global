@@ -39,6 +39,7 @@ export const CONTENT = {
       text: "A digital platform to buy, sell, and track gold and silver.",
       status: "In development · target 2027",
       more: "Learn more",
+      mockLabel: "Illustration",
     },
     nexoraPage: {
       back: "Back to NEXTIN",
@@ -154,6 +155,7 @@ export const CONTENT = {
       text: "Platform digital untuk beli, jual, dan pantau emas serta perak.",
       status: "Dalam pengembangan · target 2027",
       more: "Lihat selengkapnya",
+      mockLabel: "Ilustrasi",
     },
     nexoraPage: {
       back: "Kembali ke NEXTIN",
