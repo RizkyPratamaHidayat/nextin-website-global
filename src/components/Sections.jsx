@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Icon } from "./Icons";
 import { Reveal } from "./Reveal";
+import { ClientMap } from "./ClientMap";
 import { SITE } from "../data/site";
 import { TEAM } from "../data/content";
 
@@ -31,6 +32,25 @@ export const About = ({ t }) => (
           ))}
         </ol>
       </div>
+    </div>
+  </section>
+);
+
+// Peta negara klien. Jumlah negara ngikut SITE.countries, nama klien nggak ditampilin (DEC-014).
+export const Reach = ({ t }) => (
+  <section id="reach" className="section section--dark">
+    <div className="container reach">
+      <Reveal className="reach__text">
+        <p className="eyebrow">{t.eyebrow}</p>
+        <h2>{t.title.replace("{n}", SITE.countries)}</h2>
+        <p className="muted">{t.text}</p>
+        <ul className="reach__list">
+          {t.order.map((code) => <li key={code}>{t.names[code]}</li>)}
+        </ul>
+      </Reveal>
+      <Reveal delay={120} className="reach__map">
+        <ClientMap names={t.names} label={t.mapLabel} />
+      </Reveal>
     </div>
   </section>
 );
@@ -116,13 +136,15 @@ export const Team = ({ t, lang }) => (
   <section id="team" className="section section--soft">
     <div className="container">
       <Head eyebrow={t.eyebrow} title={t.title} />
-      <div className="cards cards--2">
+      <div className="leaders">
         {TEAM.map((m, i) => (
-          <Reveal key={m.name} delay={i * 120} className="person">
-            <img src={m.img} alt={m.name} loading="lazy" width="96" height="96" />
-            <div>
+          <Reveal key={m.name} className={`leader${i % 2 ? " leader--flip" : ""}`}>
+            <div className="leader__photo">
+              <img src={m.img} alt={m.name} loading="lazy" width="560" height="700" />
+            </div>
+            <div className="leader__text">
+              <span className="leader__job">{m.job[lang]}</span>
               <h3>{m.name}</h3>
-              <p className="person__job">{m.job[lang]}</p>
               <p>{m.bio[lang]}</p>
             </div>
           </Reveal>
