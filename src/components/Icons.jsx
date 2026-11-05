@@ -10,6 +10,10 @@ const P = {
   mail: "M3 6h18v12H3zM3 7l9 7 9-7",
   phone: "M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z",
   check: "M5 12l5 5 9-10",
+  chart: "M4 19h16M6 15l4-4 3 3 5-6",
+  swap: "M7 7h12l-3-3M17 17H5l3 3",
+  wallet: "M4 7h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7zm0 0l2-3h10M16 13h.01",
+  list: "M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01",
 };
 
 export const Icon = ({ name, size = 24 }) => (
