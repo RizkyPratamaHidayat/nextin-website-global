@@ -33,6 +33,12 @@ export const CONTENT = {
       names: { id: "Indonesia", my: "Malaysia", hk: "Hong Kong", au: "Australia" },
       mapLabel: "Map of Asia-Pacific with client countries marked: Indonesia, Malaysia, Hong Kong, and Australia.",
     },
+    nexora: {
+      eyebrow: "Coming soon",
+      title: "NEXORA, our new product under NEXTIN",
+      text: "A digital platform to buy, sell, and track gold and silver.",
+      status: "In development · target 2027",
+    },
     services: {
       eyebrow: "What we do",
       title: "Built around outcomes, not just code",
@@ -123,6 +129,12 @@ export const CONTENT = {
       order: ["id", "my", "hk", "au"],
       names: { id: "Indonesia", my: "Malaysia", hk: "Hong Kong", au: "Australia" },
       mapLabel: "Peta Asia-Pasifik dengan tanda negara klien: Indonesia, Malaysia, Hong Kong, dan Australia.",
+    },
+    nexora: {
+      eyebrow: "Segera hadir",
+      title: "NEXORA, produk baru dari NEXTIN",
+      text: "Platform digital untuk beli, jual, dan pantau emas serta perak.",
+      status: "Dalam pengembangan · target 2027",
     },
     services: {
       eyebrow: "Layanan kami",
