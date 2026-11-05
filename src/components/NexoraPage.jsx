@@ -6,13 +6,14 @@ import mockOne from "../assets/nexora/mockup-hp-miring.webp";
 
 // Halaman produk NEXORA (#/nexora). Aturan konten: tanpa nama mitra, tanpa klaim izin/keamanan,
 // tanpa angka yang kebaca kayak janji untung, tanpa form data pribadi.
-// Mockup HP dari aset branding Lexa (marketing-assets), dikecilin ke WebP. Saldo disembunyiin, harga ditandai "Ilustrasi".
+// Mockup HP dari aset branding Lexa (marketing-assets, versi tanpa glow), dikecilin ke WebP. Glow emas dari CSS.
+// Saldo disembunyiin, harga ditandai "Ilustrasi".
 // Layar sempit pakai satu HP miring biar tetap kebaca.
 const PhoneMock = ({ label }) => (
   <figure className="nxp__phone">
     <picture>
       <source media="(max-width: 560px)" srcSet={mockOne} />
-      <img src={mockTwo} alt={label} width="1100" height="988" loading="eager" decoding="async" />
+      <img src={mockTwo} alt={label} width="1000" height="1152" loading="eager" decoding="async" />
     </picture>
     <figcaption>{label}</figcaption>
   </figure>

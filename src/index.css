@@ -246,9 +246,11 @@ p { margin: 0; }
 .nxp__title { font-size: clamp(3rem, 8vw, 5.5rem); letter-spacing: 0.04em; background: linear-gradient(135deg, #fbe7a6, #d4a437 55%, #a8781c); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .nxp__intro { margin-top: 18px; max-width: 560px; font-size: 1.12rem; color: rgba(255, 255, 255, 0.78); }
 .nxp__hero .nexora__status { margin-top: 24px; }
-.nxp__phone { margin: 0; display: grid; justify-items: center; gap: 16px; }
+.nxp__phone { position: relative; margin: 0; display: grid; justify-items: center; gap: 16px; }
+.nxp__phone::before { content: ""; position: absolute; inset: 2% -8% 8%; z-index: 0; border-radius: 50%; background: radial-gradient(closest-side, rgba(240, 200, 100, 0.75), rgba(212, 164, 55, 0.35) 50%, transparent 100%); filter: blur(36px); pointer-events: none; }
+.nxp__phone picture, .nxp__phone figcaption { position: relative; z-index: 1; }
 .nxp__phone figcaption { font-size: 0.82rem; color: rgba(255, 255, 255, 0.55); text-align: center; }
-.nxp__phone img { width: 100%; max-width: 620px; height: auto; display: block; }
+.nxp__phone img { width: 100%; max-width: 560px; height: auto; display: block; filter: drop-shadow(0 30px 40px rgba(0, 0, 0, 0.55)); }
 .nxp__icon { background: linear-gradient(135deg, #fdf3d6, #f3dfa5); color: #8a6414; }
 .nxp__card.is-visible:hover { border-color: #d4a437; box-shadow: 0 20px 44px -16px rgba(212, 164, 55, 0.4); }
 .nxp__note { max-width: 720px; }
@@ -258,7 +260,10 @@ p { margin: 0; }
 .btn--gold:hover { transform: translateY(-2px); }
 @media (max-width: 900px) {
   .nxp__hero-inner { grid-template-columns: 1fr; gap: 40px; }
-  .nxp__phone img { max-width: 520px; margin-inline: auto; }
+  .nxp__phone img { max-width: 480px; margin-inline: auto; }
+}
+@media (max-width: 560px) {
+  .nxp__phone img { max-width: 280px; }
 }
 
 /* ---------- Responsive ---------- */
