@@ -216,6 +216,18 @@ p { margin: 0; }
   .map__text { font-size: 30px; }
 }
 
+/* ---------- Teaser NEXORA ---------- */
+.nexora { display: grid; grid-template-columns: auto 1fr; gap: clamp(24px, 4vw, 48px); align-items: center; padding: clamp(28px, 5vw, 56px); border-radius: var(--radius); background: radial-gradient(120% 140% at 0% 0%, #1d1608 0%, var(--navy-950) 55%); border: 1px solid rgba(212, 164, 55, 0.35); color: #fff; box-shadow: var(--shadow); }
+.nexora__mark { width: clamp(88px, 12vw, 140px); height: auto; display: block; }
+.nexora__eyebrow { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #e6c15c; margin-bottom: 12px; }
+.nexora h2 { font-size: clamp(1.6rem, 3vw, 2.3rem); }
+.nexora__tagline { margin-top: 10px; font-size: 1.15rem; font-weight: 600; color: #f6d77e; letter-spacing: 0.01em; }
+.nexora__text { margin-top: 12px; color: rgba(255, 255, 255, 0.72); max-width: 560px; }
+.nexora__status { display: inline-block; margin-top: 20px; padding: 6px 14px; border-radius: 999px; border: 1px solid rgba(230, 193, 92, 0.5); color: #fbe7a6; font-size: 0.85rem; font-weight: 600; }
+@media (max-width: 560px) {
+  .nexora { grid-template-columns: 1fr; text-align: left; }
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
   .contact__grid, .about { grid-template-columns: 1fr; gap: 40px; }

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { CONTENT } from "./data/content";
 import { Navigation } from "./components/Navigation";
 import { Hero } from "./components/Hero";
+import { NexoraTeaser } from "./components/NexoraTeaser";
 import { About, Reach, Services, Work, Process, Team, Contact, Footer, WhatsAppFab } from "./components/Sections";
 import "./index.css";
 
@@ -25,6 +26,7 @@ const App = () => {
         <Hero t={t.hero} stats={t.stats} />
         <About t={t.about} />
         <Reach t={t.reach} />
+        <NexoraTeaser t={t.nexora} />
         <Services t={t.services} />
         <Work t={t.work} />
         <Process t={t.process} industries={t.industries} />
