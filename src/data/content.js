@@ -25,6 +25,14 @@ export const CONTENT = {
         { label: "Belief", title: "What we believe", text: "Every digital transformation begins with a deep understanding of business needs, followed by the implementation of the right technology. Through collaboration, innovation, and dedication, we help our clients reach their full potential in this digital era." },
       ],
     },
+    reach: {
+      eyebrow: "Where our clients are",
+      title: "Clients in {n} countries",
+      text: "We build for finance, trading, and leasing businesses across Asia-Pacific. Client names stay confidential.",
+      order: ["id", "my", "hk", "au"],
+      names: { id: "Indonesia", my: "Malaysia", hk: "Hong Kong", au: "Australia" },
+      mapLabel: "Map of Asia-Pacific with client countries marked: Indonesia, Malaysia, Hong Kong, and Australia.",
+    },
     services: {
       eyebrow: "What we do",
       title: "Built around outcomes, not just code",
@@ -107,6 +115,14 @@ export const CONTENT = {
         { label: "Kepercayaan", title: "Siapa yang percaya pada kami", text: "Klien dari Indonesia, Australia, Malaysia, dan Hong Kong mempercayakan layanan yang andal, berkualitas tinggi, dan berorientasi hasil kepada kami." },
         { label: "Keyakinan", title: "Yang kami yakini", text: "Setiap transformasi digital dimulai dari pemahaman mendalam tentang kebutuhan bisnis, lalu penerapan teknologi yang tepat. Lewat kolaborasi, inovasi, dan dedikasi, kami membantu klien mencapai potensi penuhnya di era digital ini." },
       ],
+    },
+    reach: {
+      eyebrow: "Lokasi klien kami",
+      title: "Klien di {n} negara",
+      text: "Kami membangun produk untuk bisnis keuangan, trading, dan pembiayaan di Asia-Pasifik. Nama klien kami rahasiakan.",
+      order: ["id", "my", "hk", "au"],
+      names: { id: "Indonesia", my: "Malaysia", hk: "Hong Kong", au: "Australia" },
+      mapLabel: "Peta Asia-Pasifik dengan tanda negara klien: Indonesia, Malaysia, Hong Kong, dan Australia.",
     },
     services: {
       eyebrow: "Layanan kami",

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Icon } from "./Icons";
 import { Reveal } from "./Reveal";
+import { ClientMap } from "./ClientMap";
 import { SITE } from "../data/site";
 import { TEAM } from "../data/content";
 
@@ -31,6 +32,25 @@ export const About = ({ t }) => (
           ))}
         </ol>
       </div>
+    </div>
+  </section>
+);
+
+// Peta negara klien. Jumlah negara ngikut SITE.countries, nama klien nggak ditampilin (DEC-014).
+export const Reach = ({ t }) => (
+  <section id="reach" className="section section--dark">
+    <div className="container reach">
+      <Reveal className="reach__text">
+        <p className="eyebrow">{t.eyebrow}</p>
+        <h2>{t.title.replace("{n}", SITE.countries)}</h2>
+        <p className="muted">{t.text}</p>
+        <ul className="reach__list">
+          {t.order.map((code) => <li key={code}>{t.names[code]}</li>)}
+        </ul>
+      </Reveal>
+      <Reveal delay={120} className="reach__map">
+        <ClientMap names={t.names} label={t.mapLabel} />
+      </Reveal>
     </div>
   </section>
 );

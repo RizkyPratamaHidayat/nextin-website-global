@@ -196,6 +196,26 @@ p { margin: 0; }
 .fab { position: fixed; right: 20px; bottom: 20px; z-index: 40; width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; background: #128c4a; color: #fff; box-shadow: 0 12px 28px -8px rgba(18, 140, 74, 0.7); transition: transform 0.25s var(--ease); }
 .fab:hover { transform: scale(1.08); }
 
+/* ---------- Peta klien ---------- */
+.reach { display: grid; gap: 56px; grid-template-columns: 1fr 1.15fr; align-items: center; }
+.reach__text h2 { margin-bottom: 4px; }
+.reach__list { list-style: none; margin: 28px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.reach__list li { padding: 6px 14px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, 0.18); font-weight: 600; font-size: 0.9rem; }
+.reach__map { background: var(--navy-800); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: var(--radius); padding: clamp(12px, 3vw, 28px); }
+.map { width: 100%; height: auto; display: block; }
+.map__land path { fill: rgba(255, 255, 255, 0.12); stroke: rgba(255, 255, 255, 0.22); stroke-width: 1.5; stroke-linejoin: round; }
+.map__halo { fill: var(--brand-light); opacity: 0.25; transform-box: fill-box; transform-origin: center; animation: map-pulse 2.4s var(--ease) infinite; animation-delay: calc(var(--i) * 0.3s); }
+.map__dot { fill: var(--brand-light); stroke: var(--navy-900); stroke-width: 3; }
+.map__tag { fill: var(--navy-950); stroke: rgba(108, 192, 238, 0.55); stroke-width: 1.5; }
+.map__text { fill: #fff; font-size: 22px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+@keyframes map-pulse { 0% { transform: scale(0.6); opacity: 0.45; } 70% { transform: scale(1.6); opacity: 0; } 100% { opacity: 0; } }
+@media (max-width: 900px) {
+  .reach { grid-template-columns: 1fr; gap: 32px; }
+}
+@media (max-width: 560px) {
+  .map__text { font-size: 30px; }
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
   .contact__grid, .about { grid-template-columns: 1fr; gap: 40px; }
