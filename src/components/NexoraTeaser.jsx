@@ -1,8 +1,9 @@
 import React from "react";
 import { Reveal } from "./Reveal";
+import { Icon } from "./Icons";
 
 // Logo N NEXORA, disalin dari prototype-ui/logo/n-mark.svg (id gradient dikasih prefix biar nggak bentrok).
-const NMark = () => (
+export const NMark = () => (
   <svg className="nexora__mark" viewBox="0 0 120 120" aria-hidden="true">
     <defs>
       <linearGradient id="nx-g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#F6D77E" /><stop offset=".55" stopColor="#D4A437" /><stop offset="1" stopColor="#A8781C" /></linearGradient>
@@ -20,14 +21,17 @@ const NMark = () => (
 export const NexoraTeaser = ({ t }) => (
   <section id="nexora" className="section section--tight">
     <div className="container">
-      <Reveal className="nexora">
+      <Reveal as="a" href="#/nexora" className="nexora nexora--link">
         <NMark />
         <div className="nexora__body">
           <p className="nexora__eyebrow">{t.eyebrow}</p>
           <h2>{t.title}</h2>
           <p className="nexora__tagline">Your Wealth, Your Next.</p>
           <p className="nexora__text">{t.text}</p>
-          <span className="nexora__status">{t.status}</span>
+          <div className="nexora__foot">
+            <span className="nexora__status">{t.status}</span>
+            <span className="nexora__more">{t.more}<Icon name="arrow" size={18} /></span>
+          </div>
         </div>
       </Reveal>
     </div>
